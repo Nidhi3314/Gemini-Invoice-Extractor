@@ -1,0 +1,26 @@
+{
+  "name": "ai-email-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.16.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "inquirer": "^11.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.55.2",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^5.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
